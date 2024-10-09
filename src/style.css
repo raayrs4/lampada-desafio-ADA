@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#lampada {
+  display: flex;
+  width: 200px;
+  height: auto;
+}
+
+#botaoLampada {
+  display: flex;
+  text-align: center;
+
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 18px;
+  color: black;
+  background-color: #eddd04;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(255, 69, 0, 0.5);
+}
+
+#botaoLampada:hover {
+  background-color: #ffe11d;
+  box-shadow: 0 6px 12px rgba(255, 99, 71, 0.7);
+}
