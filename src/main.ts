@@ -40,11 +40,11 @@ function toggleLamp(): void {
 function atualizarImagem() {
   if(lampada) {
     if (estadoLampada === "apagada") {
-        lampada.src = "./public/images/apagada.png";
+        lampada.src = "./images/apagada.png";
     } else if (estadoLampada === "acesa") {
-        lampada.src = "./public/images/acesa.png";
+        lampada.src = "./images/acesa.png";
     } else if (estadoLampada === "quebrada") {
-      lampada.src = "./public/images/quebrada.png";
+      lampada.src = "./images/quebrada.png";
     }
   }
 }
